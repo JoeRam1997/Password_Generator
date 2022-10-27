@@ -20,6 +20,11 @@ all = upper + lower + num + symbols
 # Randomizing each character
 temp = random.sample(all, length)
 
+# Create the password
+password = "".join(temp)
+
+
+
 
 
 
