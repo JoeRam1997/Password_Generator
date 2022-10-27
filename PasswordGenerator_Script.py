@@ -17,6 +17,9 @@ symbols = string.punctuation
 # Combine the requirements to form the password
 all = upper + lower + num + symbols
 
+# Randomizing each character
+temp = random.sample(all, length)
+
 
 
 
