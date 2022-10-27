@@ -14,6 +14,10 @@ lower = string.ascii_lowercase
 num = string.digits
 symbols = string.punctuation
 
+# Combine the requirements to form the password
+all = upper + lower + num + symbols
+
+
 
 
 
