@@ -23,6 +23,9 @@ temp = random.sample(all, length)
 # Create the password
 password = "".join(temp)
 
+# Display the generated password
+print(password)
+
 
 
 
